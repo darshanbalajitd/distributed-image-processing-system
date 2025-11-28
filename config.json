@@ -1,0 +1,12 @@
+{
+  "bind_address": "0.0.0.0",
+  "port": 5555,
+  "image_root": "data/images",
+  "output_dir": "output",
+  "batch_size_min": 4,
+  "batch_size_max": 64,
+  "backend_preference": "onnx",
+  "onnx_model_path": "models/face_embedding.onnx",
+  "providers": ["cuda", "cpu"],
+  "html_embed_images": true
+}
